@@ -24,3 +24,14 @@ models:
       materialized: table
       staging:
         materialized: view
+
+vars: # remove after setting up connectors in snowflake
+  apple_search_ads_schema: ad_reporting_seeds
+  facebook_ads_schema: ad_reporting_seeds
+  google_ads_schema: ad_reporting_seeds
+  microsoft_ads_schema: ad_reporting_seeds
+  linkedin_schema: ad_reporting_seeds 
+  pinterest_schema: ad_reporting_seeds
+  twitter_ads_schema: ad_reporting_seeds
+  snapchat_schema: ad_reporting_seeds
+  tiktok_ads_schema: ad_reporting_seeds
